@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "mojeid"
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Richard R\314\214i\314\201man"]
-  s.date = "2012-03-15"
+  s.date = "2012-03-19"
   s.description = "TODO: longer description of your gem"
   s.email = "riman.richard@gmail.com"
   s.extra_rdoc_files = [
@@ -28,6 +28,7 @@ Gem::Specification.new do |s|
     "lib/attributes.rb",
     "lib/helpers.rb",
     "lib/mojeid.rb",
+    "mojeid.gemspec",
     "spec/mojeid_spec.rb",
     "spec/spec_helper.rb"
   ]
