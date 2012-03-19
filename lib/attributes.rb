@@ -1,14 +1,14 @@
 # for more informations about attributes look at http://www.mojeid.cz/page/800/jak-zavest-mojeid-/
 
 module MojeIDAttributes
-  ATTRIBUTES = %w(
+  AVAILABLE_ATTRIBUTES = %W(
     http://axschema.org/namePerson
     http://axschema.org/namePerson/first
     http://axschema.org/namePerson/last
     http://axschema.org/namePerson/friendly
     http://axschema.org/company/name
-    http://axschema.org/contact/postalAddress/h ome
-    http://axschema.org/contact/postalAddressAd ditional/home
+    http://axschema.org/contact/postalAddress/home
+    http://axschema.org/contact/postalAddressAdditional/home
     http://specs.nic.cz/attr/addr/main/street3
     http://axschema.org/contact/city/home
     http://axschema.org/contact/state/home
@@ -28,7 +28,7 @@ module MojeIDAttributes
     http://axschema.org/namePerson/friendly
     http://axschema.org/company/name
     http://axschema.org/contact/postalAddress/h ome
-    http://axschema.org/contact/postalAddressAd ditional/home
+    http://axschema.org/contact/postalAddressAdditional/home
     http://specs.nic.cz/attr/addr/main/street3
     http://axschema.org/contact/city/home
     http://axschema.org/contact/state/home
