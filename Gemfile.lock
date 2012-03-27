@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/joe1chen/ruby-openid.git
+  revision: 452053ba4437b3d27ed5360e5a12a83aff4db4e9
+  specs:
+    ruby-openid (2.1.9.1)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -21,7 +27,6 @@ GEM
     rspec-expectations (2.8.0)
       diff-lcs (~> 1.1.2)
     rspec-mocks (2.8.0)
-    ruby-openid (2.1.8)
 
 PLATFORMS
   ruby
@@ -32,4 +37,4 @@ DEPENDENCIES
   rcov
   rdoc (~> 3.12)
   rspec (~> 2.8.0)
-  ruby-openid (~> 2.1.8)
+  ruby-openid!

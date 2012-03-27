@@ -10,4 +10,4 @@ group :development do
   gem "rcov", ">= 0"
 end
 
-gem "ruby-openid", "~> 2.1.8"
+gem "ruby-openid", :git => "git://github.com/joe1chen/ruby-openid.git"

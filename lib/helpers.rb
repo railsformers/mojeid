@@ -1,7 +1,7 @@
 # helper methods
 
 def xrds_meta_tag(request)
-  raw "<meta http-equiv=\"x-xrds-location\" content=\"#{request.protocol}#{request.host_with_port}/xrds.xml\" />"
+  tag :meta, :'http-equiv' => "x-xrds-location", :content => "#{request.protocol}#{request.host_with_port}/xrds.xml"
 end
 
 def xrds_response(return_url)
