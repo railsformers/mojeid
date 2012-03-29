@@ -8,9 +8,9 @@ Gem::Specification.new do |s|
   s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Richard R\314\214i\314\201man"]
-  s.date = "2012-03-27"
-  s.description = "TODO: longer description of your gem"
+  s.authors = ["Richard \305\230\303\255man"]
+  s.date = "2012-03-29"
+  s.description = "Gem with common functionality for authentication using MojeID provider. Uses ruby-openid gem for this."
   s.email = "riman.richard@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -36,7 +36,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.21"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "MojeID authentication gem"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3

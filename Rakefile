@@ -17,10 +17,10 @@ Jeweler::Tasks.new do |gem|
   gem.name = "mojeid"
   gem.homepage = "http://github.com/railsformers/mojeid"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{MojeID authentication gem}
+  gem.description = %Q{Gem with common functionality for authentication using MojeID provider. Uses ruby-openid gem for this.}
   gem.email = "riman.richard@gmail.com"
-  gem.authors = ["Richard Říman"]
+  gem.authors = ["Richard Říman"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
