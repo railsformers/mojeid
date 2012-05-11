@@ -8,7 +8,15 @@ require "helpers"
 class MojeID
   include MojeIDAttributes
 
-  MOJEID_ENDPOINT = "https://mojeid.cz/endpoint/"
+  MOJEID_ENDPOINT = "http://mojeid.cz/endpoint/"
+  MOJEID_ENDPOINT_TEST = "https://mojeid.fred.nic.cz/endpoint/"
+
+  @test = false
+
+  def initialize(options={test: false})
+    @test = options[:test]
+    OpenID::fetcher.ca_file = "#{File.dirname(__FILE__)}/cert/cznic-cacert-test.pem" if @test
+  end
 
   class DiscoveryFailure < OpenID::DiscoveryFailure; end
 
@@ -22,7 +30,8 @@ class MojeID
     OpenID::Consumer.new(session, store)
   end
 
-  def fetch_request(consumer, identifier=MOJEID_ENDPOINT)
+  def fetch_request(consumer)
+    identifier = @test ? MOJEID_ENDPOINT_TEST : MOJEID_ENDPOINT
     process_discovery(consumer, identifier)
     @ax_request = OpenID::AX::FetchRequest.new
     pape_request = OpenID::PAPE::Request.new([OpenID::PAPE::AUTH_PHISHING_RESISTANT])
@@ -34,7 +43,8 @@ class MojeID
     @auth_response
   end
 
-  def store_request(consumer, identifier=MOJEID_ENDPOINT)
+  def store_request(consumer)
+    identifier = @test ? MOJEID_ENDPOINT_TEST : MOJEID_ENDPOINT
     process_discovery(consumer, identifier)
     @ax_request = OpenID::AX::StoreRequest.new
   end
