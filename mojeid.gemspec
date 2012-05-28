@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Richard \305\230\303\255man"]
-  s.date = "2012-05-11"
+  s.date = "2012-05-25"
   s.description = "Gem with common functionality for authentication using MojeID provider. Uses ruby-openid gem for this."
   s.email = "riman.richard@gmail.com"
   s.extra_rdoc_files = [

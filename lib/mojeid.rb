@@ -13,7 +13,7 @@ class MojeID
 
   @test = false
 
-  def initialize(options={test: false})
+  def initialize(options={:test => false})
     @test = options[:test]
     OpenID::fetcher.ca_file = "#{File.dirname(__FILE__)}/cert/cznic-cacert-test.pem" if @test
   end
