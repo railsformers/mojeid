@@ -8,7 +8,7 @@ require "helpers"
 class MojeID
   include MojeIDAttributes
 
-  MOJEID_ENDPOINT = "http://mojeid.cz/endpoint/"
+  MOJEID_ENDPOINT = "https://mojeid.cz/endpoint/"
   MOJEID_ENDPOINT_TEST = "https://mojeid.fred.nic.cz/endpoint/"
 
   @test = false
