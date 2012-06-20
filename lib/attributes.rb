@@ -3,7 +3,7 @@
 module MojeIDAttributes
   AVAILABLE_ATTRIBUTES = %W(
     http://axschema.org/namePerson
-    http://axschema.org/namePerson/first
+  ￼￼http://axschema.org/namePerson/first
     http://axschema.org/namePerson/last
     http://axschema.org/namePerson/friendly
     http://axschema.org/company/name
@@ -22,33 +22,41 @@ module MojeIDAttributes
     http://specs.nic.cz/attr/addr/bill/cc
     http://specs.nic.cz/attr/addr/bill/pc
     http://specs.nic.cz/attr/addr/ship/street
-    http://axschema.org/namePerson
-    http://axschema.org/namePerson/first
-    http://axschema.org/namePerson/last
-    http://axschema.org/namePerson/friendly
-    http://axschema.org/company/name
-    http://axschema.org/contact/postalAddress/h ome
-    http://axschema.org/contact/postalAddressAdditional/home
-    http://specs.nic.cz/attr/addr/main/street3
-    http://axschema.org/contact/city/home
-    http://axschema.org/contact/state/home
-    http://axschema.org/contact/country/home
-    http://axschema.org/contact/postalCode/home
-    http://specs.nic.cz/attr/addr/bill/street
-    http://specs.nic.cz/attr/addr/bill/street2
-    http://specs.nic.cz/attr/addr/bill/street3
-    http://specs.nic.cz/attr/addr/bill/city
-    http://specs.nic.cz/attr/addr/bill/sp
-    http://specs.nic.cz/attr/addr/bill/cc
-    http://specs.nic.cz/attr/addr/bill/pc
-    http://specs.nic.cz/attr/addr/ship/street
+    http://specs.nic.cz/attr/addr/ship/street2
+    http://specs.nic.cz/attr/addr/ship/street3
+    http://specs.nic.cz/attr/addr/ship/city
+    http://specs.nic.cz/attr/addr/ship/sp
+    http://specs.nic.cz/attr/addr/ship/cc
+    http://specs.nic.cz/attr/addr/ship/pc
+    http://specs.nic.cz/attr/addr/mail/street
+    http://specs.nic.cz/attr/addr/mail/street2
+    http://specs.nic.cz/attr/addr/mail/street3
+    http://specs.nic.cz/attr/addr/mail/city
+    http://specs.nic.cz/attr/addr/mail/sp
+    http://specs.nic.cz/attr/addr/mail/cc
+    http://specs.nic.cz/attr/addr/mail/pc
+    http://axschema.org/contact/phone/default
+    http://axschema.org/contact/phone/home
+    http://axschema.org/contact/phone/business
+    http://axschema.org/contact/phone/cell
+    http://axschema.org/contact/phone/fax
+    http://axschema.org/contact/email
+    http://specs.nic.cz/attr/email/notify
+    http://specs.nic.cz/attr/email/next
+    http://axschema.org/contact/web/default
+    http://axschema.org/contact/web/blog
+    http://specs.nic.cz/attr/url/personal
+    http://specs.nic.cz/attr/url/work
+    http://specs.nic.cz/attr/url/rss
+    http://specs.nic.cz/attr/url/facebook
+    http://specs.nic.cz/attr/url/twitter
     http://specs.nic.cz/attr/url/linkedin
     http://axschema.org/contact/IM/ICQ
     http://axschema.org/contact/IM/Jabber
     http://axschema.org/contact/IM/Skype
     http://specs.nic.cz/attr/im/google_talk
     http://specs.nic.cz/attr/im/windows_live
-    http://specs.nic.cz/attr/contact/ident/vat_ id
+    http://specs.nic.cz/attr/contact/ident/vat_id
     http://specs.nic.cz/attr/contact/vat
     http://specs.nic.cz/attr/contact/ident/card
     http://specs.nic.cz/attr/contact/ident/pass
