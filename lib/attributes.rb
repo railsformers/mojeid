@@ -3,7 +3,7 @@
 module MojeIDAttributes
   AVAILABLE_ATTRIBUTES = %W(
     http://axschema.org/namePerson
-  ￼￼http://axschema.org/namePerson/first
+    http://axschema.org/namePerson/first
     http://axschema.org/namePerson/last
     http://axschema.org/namePerson/friendly
     http://axschema.org/company/name
